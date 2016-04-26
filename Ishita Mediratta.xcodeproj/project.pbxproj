@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B1C6FC1CCF806700283A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C6FB1CCF806700283A1B /* AppDelegate.swift */; };
+		58B1C6FE1CCF806700283A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C6FD1CCF806700283A1B /* ViewController.swift */; };
+		58B1C7011CCF806700283A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B1C6FF1CCF806700283A1B /* Main.storyboard */; };
+		58B1C7031CCF806700283A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B1C7021CCF806700283A1B /* Assets.xcassets */; };
+		58B1C7061CCF806700283A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B1C7041CCF806700283A1B /* LaunchScreen.storyboard */; };
+		58B1C7111CCF806700283A1B /* Ishita_MedirattaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C7101CCF806700283A1B /* Ishita_MedirattaTests.swift */; };
+		58B1C71C1CCF806700283A1B /* Ishita_MedirattaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C71B1CCF806700283A1B /* Ishita_MedirattaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58B1C70D1CCF806700283A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B1C6F01CCF806500283A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B1C6F71CCF806500283A1B;
+			remoteInfo = "Ishita Mediratta";
+		};
+		58B1C7181CCF806700283A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B1C6F01CCF806500283A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B1C6F71CCF806500283A1B;
+			remoteInfo = "Ishita Mediratta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58B1C6F81CCF806500283A1B /* Ishita Mediratta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ishita Mediratta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B1C6FB1CCF806700283A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58B1C6FD1CCF806700283A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58B1C7001CCF806700283A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58B1C7021CCF806700283A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58B1C7051CCF806700283A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58B1C7071CCF806700283A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B1C70C1CCF806700283A1B /* Ishita MedirattaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ishita MedirattaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B1C7101CCF806700283A1B /* Ishita_MedirattaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ishita_MedirattaTests.swift; sourceTree = "<group>"; };
+		58B1C7121CCF806700283A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B1C7171CCF806700283A1B /* Ishita MedirattaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ishita MedirattaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B1C71B1CCF806700283A1B /* Ishita_MedirattaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ishita_MedirattaUITests.swift; sourceTree = "<group>"; };
+		58B1C71D1CCF806700283A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B1C6F51CCF806500283A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C7091CCF806700283A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C7141CCF806700283A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B1C6EF1CCF806500283A1B = {
+			isa = PBXGroup;
+			children = (
+				58B1C6FA1CCF806700283A1B /* Ishita Mediratta */,
+				58B1C70F1CCF806700283A1B /* Ishita MedirattaTests */,
+				58B1C71A1CCF806700283A1B /* Ishita MedirattaUITests */,
+				58B1C6F91CCF806500283A1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B1C6F91CCF806500283A1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B1C6F81CCF806500283A1B /* Ishita Mediratta.app */,
+				58B1C70C1CCF806700283A1B /* Ishita MedirattaTests.xctest */,
+				58B1C7171CCF806700283A1B /* Ishita MedirattaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B1C6FA1CCF806700283A1B /* Ishita Mediratta */ = {
+			isa = PBXGroup;
+			children = (
+				58B1C6FB1CCF806700283A1B /* AppDelegate.swift */,
+				58B1C6FD1CCF806700283A1B /* ViewController.swift */,
+				58B1C6FF1CCF806700283A1B /* Main.storyboard */,
+				58B1C7021CCF806700283A1B /* Assets.xcassets */,
+				58B1C7041CCF806700283A1B /* LaunchScreen.storyboard */,
+				58B1C7071CCF806700283A1B /* Info.plist */,
+			);
+			path = "Ishita Mediratta";
+			sourceTree = "<group>";
+		};
+		58B1C70F1CCF806700283A1B /* Ishita MedirattaTests */ = {
+			isa = PBXGroup;
+			children = (
+				58B1C7101CCF806700283A1B /* Ishita_MedirattaTests.swift */,
+				58B1C7121CCF806700283A1B /* Info.plist */,
+			);
+			path = "Ishita MedirattaTests";
+			sourceTree = "<group>";
+		};
+		58B1C71A1CCF806700283A1B /* Ishita MedirattaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58B1C71B1CCF806700283A1B /* Ishita_MedirattaUITests.swift */,
+				58B1C71D1CCF806700283A1B /* Info.plist */,
+			);
+			path = "Ishita MedirattaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B1C6F71CCF806500283A1B /* Ishita Mediratta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B1C7201CCF806700283A1B /* Build configuration list for PBXNativeTarget "Ishita Mediratta" */;
+			buildPhases = (
+				58B1C6F41CCF806500283A1B /* Sources */,
+				58B1C6F51CCF806500283A1B /* Frameworks */,
+				58B1C6F61CCF806500283A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ishita Mediratta";
+			productName = "Ishita Mediratta";
+			productReference = 58B1C6F81CCF806500283A1B /* Ishita Mediratta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58B1C70B1CCF806700283A1B /* Ishita MedirattaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B1C7231CCF806700283A1B /* Build configuration list for PBXNativeTarget "Ishita MedirattaTests" */;
+			buildPhases = (
+				58B1C7081CCF806700283A1B /* Sources */,
+				58B1C7091CCF806700283A1B /* Frameworks */,
+				58B1C70A1CCF806700283A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B1C70E1CCF806700283A1B /* PBXTargetDependency */,
+			);
+			name = "Ishita MedirattaTests";
+			productName = "Ishita MedirattaTests";
+			productReference = 58B1C70C1CCF806700283A1B /* Ishita MedirattaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58B1C7161CCF806700283A1B /* Ishita MedirattaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B1C7261CCF806700283A1B /* Build configuration list for PBXNativeTarget "Ishita MedirattaUITests" */;
+			buildPhases = (
+				58B1C7131CCF806700283A1B /* Sources */,
+				58B1C7141CCF806700283A1B /* Frameworks */,
+				58B1C7151CCF806700283A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B1C7191CCF806700283A1B /* PBXTargetDependency */,
+			);
+			name = "Ishita MedirattaUITests";
+			productName = "Ishita MedirattaUITests";
+			productReference = 58B1C7171CCF806700283A1B /* Ishita MedirattaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B1C6F01CCF806500283A1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ishita Mediratta";
+				TargetAttributes = {
+					58B1C6F71CCF806500283A1B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					58B1C70B1CCF806700283A1B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 58B1C6F71CCF806500283A1B;
+					};
+					58B1C7161CCF806700283A1B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 58B1C6F71CCF806500283A1B;
+					};
+				};
+			};
+			buildConfigurationList = 58B1C6F31CCF806500283A1B /* Build configuration list for PBXProject "Ishita Mediratta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58B1C6EF1CCF806500283A1B;
+			productRefGroup = 58B1C6F91CCF806500283A1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B1C6F71CCF806500283A1B /* Ishita Mediratta */,
+				58B1C70B1CCF806700283A1B /* Ishita MedirattaTests */,
+				58B1C7161CCF806700283A1B /* Ishita MedirattaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B1C6F61CCF806500283A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B1C7061CCF806700283A1B /* LaunchScreen.storyboard in Resources */,
+				58B1C7031CCF806700283A1B /* Assets.xcassets in Resources */,
+				58B1C7011CCF806700283A1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C70A1CCF806700283A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C7151CCF806700283A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B1C6F41CCF806500283A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B1C6FE1CCF806700283A1B /* ViewController.swift in Sources */,
+				58B1C6FC1CCF806700283A1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C7081CCF806700283A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B1C7111CCF806700283A1B /* Ishita_MedirattaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C7131CCF806700283A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B1C71C1CCF806700283A1B /* Ishita_MedirattaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58B1C70E1CCF806700283A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B1C6F71CCF806500283A1B /* Ishita Mediratta */;
+			targetProxy = 58B1C70D1CCF806700283A1B /* PBXContainerItemProxy */;
+		};
+		58B1C7191CCF806700283A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B1C6F71CCF806500283A1B /* Ishita Mediratta */;
+			targetProxy = 58B1C7181CCF806700283A1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58B1C6FF1CCF806700283A1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B1C7001CCF806700283A1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58B1C7041CCF806700283A1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B1C7051CCF806700283A1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B1C71E1CCF806700283A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58B1C71F1CCF806700283A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B1C7211CCF806700283A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ishita Mediratta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-Mediratta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58B1C7221CCF806700283A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ishita Mediratta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-Mediratta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		58B1C7241CCF806700283A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ishita MedirattaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-MedirattaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ishita Mediratta.app/Ishita Mediratta";
+			};
+			name = Debug;
+		};
+		58B1C7251CCF806700283A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ishita MedirattaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-MedirattaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ishita Mediratta.app/Ishita Mediratta";
+			};
+			name = Release;
+		};
+		58B1C7271CCF806700283A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ishita MedirattaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-MedirattaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ishita Mediratta";
+			};
+			name = Debug;
+		};
+		58B1C7281CCF806700283A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ishita MedirattaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-MedirattaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ishita Mediratta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B1C6F31CCF806500283A1B /* Build configuration list for PBXProject "Ishita Mediratta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B1C71E1CCF806700283A1B /* Debug */,
+				58B1C71F1CCF806700283A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B1C7201CCF806700283A1B /* Build configuration list for PBXNativeTarget "Ishita Mediratta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B1C7211CCF806700283A1B /* Debug */,
+				58B1C7221CCF806700283A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58B1C7231CCF806700283A1B /* Build configuration list for PBXNativeTarget "Ishita MedirattaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B1C7241CCF806700283A1B /* Debug */,
+				58B1C7251CCF806700283A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58B1C7261CCF806700283A1B /* Build configuration list for PBXNativeTarget "Ishita MedirattaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B1C7271CCF806700283A1B /* Debug */,
+				58B1C7281CCF806700283A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B1C6F01CCF806500283A1B /* Project object */;
+}
