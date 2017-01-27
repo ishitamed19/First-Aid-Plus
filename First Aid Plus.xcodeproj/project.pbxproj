@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5834490F1CD384ED00A86130 /* HospitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834490E1CD384ED00A86130 /* HospitalViewController.swift */; };
+		583449131CD3888B00A86130 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583449121CD3888B00A86130 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		583449151CD38E9F00A86130 /* MapAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583449141CD38E9F00A86130 /* MapAnnotations.swift */; };
+		583449171CD4CBD300A86130 /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583449161CD4CBD300A86130 /* StepsViewController.swift */; };
+		583449191CD5B0CC00A86130 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583449181CD5B0CC00A86130 /* AVFoundation.framework */; };
+		58692E121DC48D1900AFE511 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58692E101DC48D1900AFE511 /* Interface.storyboard */; };
+		58692E141DC48D1900AFE511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58692E131DC48D1900AFE511 /* Assets.xcassets */; };
+		58692E1B1DC48D1900AFE511 /* First Aid Plus Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 58692E1A1DC48D1900AFE511 /* First Aid Plus Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		58692E221DC48D1900AFE511 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58692E211DC48D1900AFE511 /* InterfaceController.swift */; };
+		58692E241DC48D1900AFE511 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58692E231DC48D1900AFE511 /* ExtensionDelegate.swift */; };
+		58692E261DC48D1900AFE511 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58692E251DC48D1900AFE511 /* NotificationController.swift */; };
+		58692E281DC48D1900AFE511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58692E271DC48D1900AFE511 /* Assets.xcassets */; };
+		58692E2C1DC48D1900AFE511 /* First Aid Plus Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 58692E0E1DC48D1900AFE511 /* First Aid Plus Watch.app */; };
+		5893ED6C1CCFADFB0052F8A8 /* listitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5893ED6B1CCFADFB0052F8A8 /* listitem.swift */; };
+		5893ED6E1CD110FF0052F8A8 /* listItemCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5893ED6D1CD110FF0052F8A8 /* listItemCategory.swift */; };
+		58B1C6FC1CCF806700283A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C6FB1CCF806700283A1B /* AppDelegate.swift */; };
+		58B1C6FE1CCF806700283A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C6FD1CCF806700283A1B /* ViewController.swift */; };
+		58B1C7011CCF806700283A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B1C6FF1CCF806700283A1B /* Main.storyboard */; };
+		58B1C7031CCF806700283A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B1C7021CCF806700283A1B /* Assets.xcassets */; };
+		58B1C7061CCF806700283A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B1C7041CCF806700283A1B /* LaunchScreen.storyboard */; };
+		58B1C7111CCF806700283A1B /* Ishita_MedirattaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C7101CCF806700283A1B /* Ishita_MedirattaTests.swift */; };
+		58B1C71C1CCF806700283A1B /* Ishita_MedirattaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C71B1CCF806700283A1B /* Ishita_MedirattaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58692E1C1DC48D1900AFE511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B1C6F01CCF806500283A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58692E191DC48D1900AFE511;
+			remoteInfo = "First Aid Plus Watch Extension";
+		};
+		58692E2A1DC48D1900AFE511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B1C6F01CCF806500283A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58692E0D1DC48D1900AFE511;
+			remoteInfo = "First Aid Plus Watch";
+		};
+		58B1C70D1CCF806700283A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B1C6F01CCF806500283A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B1C6F71CCF806500283A1B;
+			remoteInfo = "Ishita Mediratta";
+		};
+		58B1C7181CCF806700283A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58B1C6F01CCF806500283A1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B1C6F71CCF806500283A1B;
+			remoteInfo = "Ishita Mediratta";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58692E311DC48D1900AFE511 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				58692E1B1DC48D1900AFE511 /* First Aid Plus Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58692E361DC48D1900AFE511 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				58692E2C1DC48D1900AFE511 /* First Aid Plus Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5834490E1CD384ED00A86130 /* HospitalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalViewController.swift; sourceTree = "<group>"; };
+		583449121CD3888B00A86130 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		583449141CD38E9F00A86130 /* MapAnnotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotations.swift; sourceTree = "<group>"; };
+		583449161CD4CBD300A86130 /* StepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		583449181CD5B0CC00A86130 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		58692E0E1DC48D1900AFE511 /* First Aid Plus Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Aid Plus Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58692E111DC48D1900AFE511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		58692E131DC48D1900AFE511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58692E151DC48D1900AFE511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58692E1A1DC48D1900AFE511 /* First Aid Plus Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "First Aid Plus Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58692E201DC48D1900AFE511 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		58692E211DC48D1900AFE511 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		58692E231DC48D1900AFE511 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		58692E251DC48D1900AFE511 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		58692E271DC48D1900AFE511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58692E291DC48D1900AFE511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5893ED6B1CCFADFB0052F8A8 /* listitem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listitem.swift; sourceTree = "<group>"; };
+		5893ED6D1CD110FF0052F8A8 /* listItemCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listItemCategory.swift; sourceTree = "<group>"; };
+		58B1C6F81CCF806500283A1B /* First Aid Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Aid Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B1C6FB1CCF806700283A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58B1C6FD1CCF806700283A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58B1C7001CCF806700283A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58B1C7021CCF806700283A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58B1C7051CCF806700283A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58B1C7071CCF806700283A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B1C70C1CCF806700283A1B /* Ishita MedirattaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ishita MedirattaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B1C7101CCF806700283A1B /* Ishita_MedirattaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ishita_MedirattaTests.swift; sourceTree = "<group>"; };
+		58B1C7121CCF806700283A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B1C7171CCF806700283A1B /* Ishita MedirattaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ishita MedirattaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B1C71B1CCF806700283A1B /* Ishita_MedirattaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ishita_MedirattaUITests.swift; sourceTree = "<group>"; };
+		58B1C71D1CCF806700283A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58692E171DC48D1900AFE511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C6F51CCF806500283A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583449191CD5B0CC00A86130 /* AVFoundation.framework in Frameworks */,
+				583449131CD3888B00A86130 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C7091CCF806700283A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C7141CCF806700283A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58692E0F1DC48D1900AFE511 /* First Aid Plus Watch */ = {
+			isa = PBXGroup;
+			children = (
+				58692E101DC48D1900AFE511 /* Interface.storyboard */,
+				58692E131DC48D1900AFE511 /* Assets.xcassets */,
+				58692E151DC48D1900AFE511 /* Info.plist */,
+			);
+			path = "First Aid Plus Watch";
+			sourceTree = "<group>";
+		};
+		58692E1E1DC48D1900AFE511 /* First Aid Plus Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				58692E211DC48D1900AFE511 /* InterfaceController.swift */,
+				58692E231DC48D1900AFE511 /* ExtensionDelegate.swift */,
+				58692E251DC48D1900AFE511 /* NotificationController.swift */,
+				58692E271DC48D1900AFE511 /* Assets.xcassets */,
+				58692E291DC48D1900AFE511 /* Info.plist */,
+				58692E1F1DC48D1900AFE511 /* Supporting Files */,
+			);
+			path = "First Aid Plus Watch Extension";
+			sourceTree = "<group>";
+		};
+		58692E1F1DC48D1900AFE511 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58692E201DC48D1900AFE511 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58B1C6EF1CCF806500283A1B = {
+			isa = PBXGroup;
+			children = (
+				583449181CD5B0CC00A86130 /* AVFoundation.framework */,
+				583449121CD3888B00A86130 /* MapKit.framework */,
+				5834490E1CD384ED00A86130 /* HospitalViewController.swift */,
+				583449161CD4CBD300A86130 /* StepsViewController.swift */,
+				5893ED6B1CCFADFB0052F8A8 /* listitem.swift */,
+				5893ED6D1CD110FF0052F8A8 /* listItemCategory.swift */,
+				58B1C6FA1CCF806700283A1B /* Ishita Mediratta */,
+				58B1C70F1CCF806700283A1B /* Ishita MedirattaTests */,
+				58B1C71A1CCF806700283A1B /* Ishita MedirattaUITests */,
+				58692E0F1DC48D1900AFE511 /* First Aid Plus Watch */,
+				58692E1E1DC48D1900AFE511 /* First Aid Plus Watch Extension */,
+				58B1C6F91CCF806500283A1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B1C6F91CCF806500283A1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B1C6F81CCF806500283A1B /* First Aid Plus.app */,
+				58B1C70C1CCF806700283A1B /* Ishita MedirattaTests.xctest */,
+				58B1C7171CCF806700283A1B /* Ishita MedirattaUITests.xctest */,
+				58692E0E1DC48D1900AFE511 /* First Aid Plus Watch.app */,
+				58692E1A1DC48D1900AFE511 /* First Aid Plus Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B1C6FA1CCF806700283A1B /* Ishita Mediratta */ = {
+			isa = PBXGroup;
+			children = (
+				58B1C6FB1CCF806700283A1B /* AppDelegate.swift */,
+				58B1C6FD1CCF806700283A1B /* ViewController.swift */,
+				58B1C6FF1CCF806700283A1B /* Main.storyboard */,
+				583449141CD38E9F00A86130 /* MapAnnotations.swift */,
+				58B1C7021CCF806700283A1B /* Assets.xcassets */,
+				58B1C7041CCF806700283A1B /* LaunchScreen.storyboard */,
+				58B1C7071CCF806700283A1B /* Info.plist */,
+			);
+			path = "Ishita Mediratta";
+			sourceTree = "<group>";
+		};
+		58B1C70F1CCF806700283A1B /* Ishita MedirattaTests */ = {
+			isa = PBXGroup;
+			children = (
+				58B1C7101CCF806700283A1B /* Ishita_MedirattaTests.swift */,
+				58B1C7121CCF806700283A1B /* Info.plist */,
+			);
+			path = "Ishita MedirattaTests";
+			sourceTree = "<group>";
+		};
+		58B1C71A1CCF806700283A1B /* Ishita MedirattaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58B1C71B1CCF806700283A1B /* Ishita_MedirattaUITests.swift */,
+				58B1C71D1CCF806700283A1B /* Info.plist */,
+			);
+			path = "Ishita MedirattaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58692E0D1DC48D1900AFE511 /* First Aid Plus Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58692E321DC48D1900AFE511 /* Build configuration list for PBXNativeTarget "First Aid Plus Watch" */;
+			buildPhases = (
+				58692E0C1DC48D1900AFE511 /* Resources */,
+				58692E311DC48D1900AFE511 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58692E1D1DC48D1900AFE511 /* PBXTargetDependency */,
+			);
+			name = "First Aid Plus Watch";
+			productName = "First Aid Plus Watch";
+			productReference = 58692E0E1DC48D1900AFE511 /* First Aid Plus Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		58692E191DC48D1900AFE511 /* First Aid Plus Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58692E2D1DC48D1900AFE511 /* Build configuration list for PBXNativeTarget "First Aid Plus Watch Extension" */;
+			buildPhases = (
+				58692E161DC48D1900AFE511 /* Sources */,
+				58692E171DC48D1900AFE511 /* Frameworks */,
+				58692E181DC48D1900AFE511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "First Aid Plus Watch Extension";
+			productName = "First Aid Plus Watch Extension";
+			productReference = 58692E1A1DC48D1900AFE511 /* First Aid Plus Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		58B1C6F71CCF806500283A1B /* First Aid Plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B1C7201CCF806700283A1B /* Build configuration list for PBXNativeTarget "First Aid Plus" */;
+			buildPhases = (
+				58B1C6F41CCF806500283A1B /* Sources */,
+				58B1C6F51CCF806500283A1B /* Frameworks */,
+				58B1C6F61CCF806500283A1B /* Resources */,
+				58692E361DC48D1900AFE511 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58692E2B1DC48D1900AFE511 /* PBXTargetDependency */,
+			);
+			name = "First Aid Plus";
+			productName = "Ishita Mediratta";
+			productReference = 58B1C6F81CCF806500283A1B /* First Aid Plus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58B1C70B1CCF806700283A1B /* Ishita MedirattaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B1C7231CCF806700283A1B /* Build configuration list for PBXNativeTarget "Ishita MedirattaTests" */;
+			buildPhases = (
+				58B1C7081CCF806700283A1B /* Sources */,
+				58B1C7091CCF806700283A1B /* Frameworks */,
+				58B1C70A1CCF806700283A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B1C70E1CCF806700283A1B /* PBXTargetDependency */,
+			);
+			name = "Ishita MedirattaTests";
+			productName = "Ishita MedirattaTests";
+			productReference = 58B1C70C1CCF806700283A1B /* Ishita MedirattaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58B1C7161CCF806700283A1B /* Ishita MedirattaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B1C7261CCF806700283A1B /* Build configuration list for PBXNativeTarget "Ishita MedirattaUITests" */;
+			buildPhases = (
+				58B1C7131CCF806700283A1B /* Sources */,
+				58B1C7141CCF806700283A1B /* Frameworks */,
+				58B1C7151CCF806700283A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58B1C7191CCF806700283A1B /* PBXTargetDependency */,
+			);
+			name = "Ishita MedirattaUITests";
+			productName = "Ishita MedirattaUITests";
+			productReference = 58B1C7171CCF806700283A1B /* Ishita MedirattaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B1C6F01CCF806500283A1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ishita Mediratta";
+				TargetAttributes = {
+					58692E0D1DC48D1900AFE511 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					58692E191DC48D1900AFE511 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X3LF452M9Y;
+						ProvisioningStyle = Automatic;
+					};
+					58B1C6F71CCF806500283A1B = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = X3LF452M9Y;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					58B1C70B1CCF806700283A1B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 58B1C6F71CCF806500283A1B;
+					};
+					58B1C7161CCF806700283A1B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 58B1C6F71CCF806500283A1B;
+					};
+				};
+			};
+			buildConfigurationList = 58B1C6F31CCF806500283A1B /* Build configuration list for PBXProject "First Aid Plus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58B1C6EF1CCF806500283A1B;
+			productRefGroup = 58B1C6F91CCF806500283A1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B1C6F71CCF806500283A1B /* First Aid Plus */,
+				58B1C70B1CCF806700283A1B /* Ishita MedirattaTests */,
+				58B1C7161CCF806700283A1B /* Ishita MedirattaUITests */,
+				58692E0D1DC48D1900AFE511 /* First Aid Plus Watch */,
+				58692E191DC48D1900AFE511 /* First Aid Plus Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58692E0C1DC48D1900AFE511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58692E141DC48D1900AFE511 /* Assets.xcassets in Resources */,
+				58692E121DC48D1900AFE511 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58692E181DC48D1900AFE511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58692E281DC48D1900AFE511 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C6F61CCF806500283A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B1C7061CCF806700283A1B /* LaunchScreen.storyboard in Resources */,
+				58B1C7031CCF806700283A1B /* Assets.xcassets in Resources */,
+				58B1C7011CCF806700283A1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C70A1CCF806700283A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C7151CCF806700283A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58692E161DC48D1900AFE511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58692E261DC48D1900AFE511 /* NotificationController.swift in Sources */,
+				58692E241DC48D1900AFE511 /* ExtensionDelegate.swift in Sources */,
+				58692E221DC48D1900AFE511 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C6F41CCF806500283A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B1C6FE1CCF806700283A1B /* ViewController.swift in Sources */,
+				5893ED6C1CCFADFB0052F8A8 /* listitem.swift in Sources */,
+				5893ED6E1CD110FF0052F8A8 /* listItemCategory.swift in Sources */,
+				583449171CD4CBD300A86130 /* StepsViewController.swift in Sources */,
+				583449151CD38E9F00A86130 /* MapAnnotations.swift in Sources */,
+				58B1C6FC1CCF806700283A1B /* AppDelegate.swift in Sources */,
+				5834490F1CD384ED00A86130 /* HospitalViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C7081CCF806700283A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B1C7111CCF806700283A1B /* Ishita_MedirattaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B1C7131CCF806700283A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B1C71C1CCF806700283A1B /* Ishita_MedirattaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58692E1D1DC48D1900AFE511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58692E191DC48D1900AFE511 /* First Aid Plus Watch Extension */;
+			targetProxy = 58692E1C1DC48D1900AFE511 /* PBXContainerItemProxy */;
+		};
+		58692E2B1DC48D1900AFE511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58692E0D1DC48D1900AFE511 /* First Aid Plus Watch */;
+			targetProxy = 58692E2A1DC48D1900AFE511 /* PBXContainerItemProxy */;
+		};
+		58B1C70E1CCF806700283A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B1C6F71CCF806500283A1B /* First Aid Plus */;
+			targetProxy = 58B1C70D1CCF806700283A1B /* PBXContainerItemProxy */;
+		};
+		58B1C7191CCF806700283A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B1C6F71CCF806500283A1B /* First Aid Plus */;
+			targetProxy = 58B1C7181CCF806700283A1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58692E101DC48D1900AFE511 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58692E111DC48D1900AFE511 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		58B1C6FF1CCF806700283A1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B1C7001CCF806700283A1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58B1C7041CCF806700283A1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B1C7051CCF806700283A1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582D28311D7FDBA000E8CE46 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sudhir Mediratta (X3LF452M9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "56555ae7-c78c-4876-a3f5-f5bdf752c291";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		582D28321D7FDBA000E8CE46 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sudhir Mediratta (X3LF452M9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Ishita Mediratta/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sudhir.firstaidplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "56555ae7-c78c-4876-a3f5-f5bdf752c291";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		582D28331D7FDBA000E8CE46 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ishita MedirattaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-MedirattaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ishita Mediratta.app/Ishita Mediratta";
+			};
+			name = Distribution;
+		};
+		582D28341D7FDBA000E8CE46 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ishita MedirattaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-MedirattaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ishita Mediratta";
+			};
+			name = Distribution;
+		};
+		58692E2E1DC48D1900AFE511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = X3LF452M9Y;
+				INFOPLIST_FILE = "First Aid Plus Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sudhir.firstaidplus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		58692E2F1DC48D1900AFE511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = X3LF452M9Y;
+				INFOPLIST_FILE = "First Aid Plus Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sudhir.firstaidplus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		58692E301DC48D1900AFE511 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = X3LF452M9Y;
+				INFOPLIST_FILE = "First Aid Plus Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sudhir.firstaidplus.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Distribution;
+		};
+		58692E331DC48D1900AFE511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sudhir Mediratta (X3LF452M9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = First_Aid_Plus_Watch_Extension;
+				INFOPLIST_FILE = "First Aid Plus Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sudhir.firstaidplus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		58692E341DC48D1900AFE511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sudhir Mediratta (X3LF452M9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = First_Aid_Plus_Watch_Extension;
+				INFOPLIST_FILE = "First Aid Plus Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sudhir.firstaidplus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		58692E351DC48D1900AFE511 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sudhir Mediratta (X3LF452M9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = First_Aid_Plus_Watch_Extension;
+				INFOPLIST_FILE = "First Aid Plus Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sudhir.firstaidplus.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Distribution;
+		};
+		58B1C71E1CCF806700283A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sudhir Mediratta (X3LF452M9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "56555ae7-c78c-4876-a3f5-f5bdf752c291";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58B1C71F1CCF806700283A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sudhir Mediratta (X3LF452M9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "56555ae7-c78c-4876-a3f5-f5bdf752c291";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B1C7211CCF806700283A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sudhir Mediratta (X3LF452M9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Ishita Mediratta/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sudhir.firstaidplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "56555ae7-c78c-4876-a3f5-f5bdf752c291";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		58B1C7221CCF806700283A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sudhir Mediratta (X3LF452M9Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Ishita Mediratta/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sudhir.firstaidplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "56555ae7-c78c-4876-a3f5-f5bdf752c291";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		58B1C7241CCF806700283A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ishita MedirattaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-MedirattaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ishita Mediratta.app/Ishita Mediratta";
+			};
+			name = Debug;
+		};
+		58B1C7251CCF806700283A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ishita MedirattaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-MedirattaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ishita Mediratta.app/Ishita Mediratta";
+			};
+			name = Release;
+		};
+		58B1C7271CCF806700283A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ishita MedirattaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-MedirattaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ishita Mediratta";
+			};
+			name = Debug;
+		};
+		58B1C7281CCF806700283A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ishita MedirattaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ishita.mediratta.Ishita-MedirattaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ishita Mediratta";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58692E2D1DC48D1900AFE511 /* Build configuration list for PBXNativeTarget "First Aid Plus Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58692E2E1DC48D1900AFE511 /* Debug */,
+				58692E2F1DC48D1900AFE511 /* Release */,
+				58692E301DC48D1900AFE511 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58692E321DC48D1900AFE511 /* Build configuration list for PBXNativeTarget "First Aid Plus Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58692E331DC48D1900AFE511 /* Debug */,
+				58692E341DC48D1900AFE511 /* Release */,
+				58692E351DC48D1900AFE511 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58B1C6F31CCF806500283A1B /* Build configuration list for PBXProject "First Aid Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B1C71E1CCF806700283A1B /* Debug */,
+				58B1C71F1CCF806700283A1B /* Release */,
+				582D28311D7FDBA000E8CE46 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B1C7201CCF806700283A1B /* Build configuration list for PBXNativeTarget "First Aid Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B1C7211CCF806700283A1B /* Debug */,
+				58B1C7221CCF806700283A1B /* Release */,
+				582D28321D7FDBA000E8CE46 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B1C7231CCF806700283A1B /* Build configuration list for PBXNativeTarget "Ishita MedirattaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B1C7241CCF806700283A1B /* Debug */,
+				58B1C7251CCF806700283A1B /* Release */,
+				582D28331D7FDBA000E8CE46 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B1C7261CCF806700283A1B /* Build configuration list for PBXNativeTarget "Ishita MedirattaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B1C7271CCF806700283A1B /* Debug */,
+				58B1C7281CCF806700283A1B /* Release */,
+				582D28341D7FDBA000E8CE46 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B1C6F01CCF806500283A1B /* Project object */;
+}
