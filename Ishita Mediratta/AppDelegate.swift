@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Fabric
+import Answers
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -72,6 +75,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             launchedShortcutItem = shortcutItem
         }
+        
+        Fabric.with([Answers.self])
 
         return true
     }

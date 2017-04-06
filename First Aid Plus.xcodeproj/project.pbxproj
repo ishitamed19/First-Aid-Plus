@@ -22,6 +22,8 @@
 		58692E2C1DC48D1900AFE511 /* First Aid Plus Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 58692E0E1DC48D1900AFE511 /* First Aid Plus Watch.app */; };
 		5893ED6C1CCFADFB0052F8A8 /* listitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5893ED6B1CCFADFB0052F8A8 /* listitem.swift */; };
 		5893ED6E1CD110FF0052F8A8 /* listItemCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5893ED6D1CD110FF0052F8A8 /* listItemCategory.swift */; };
+		58B0780A1E95F89C0048BC96 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B078081E95F89C0048BC96 /* Fabric.framework */; };
+		58B0780B1E95F89C0048BC96 /* Answers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B078091E95F89C0048BC96 /* Answers.framework */; };
 		58B1C6FC1CCF806700283A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C6FB1CCF806700283A1B /* AppDelegate.swift */; };
 		58B1C6FE1CCF806700283A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C6FD1CCF806700283A1B /* ViewController.swift */; };
 		58B1C7011CCF806700283A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B1C6FF1CCF806700283A1B /* Main.storyboard */; };
@@ -106,6 +108,8 @@
 		58692E291DC48D1900AFE511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5893ED6B1CCFADFB0052F8A8 /* listitem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listitem.swift; sourceTree = "<group>"; };
 		5893ED6D1CD110FF0052F8A8 /* listItemCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listItemCategory.swift; sourceTree = "<group>"; };
+		58B078081E95F89C0048BC96 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		58B078091E95F89C0048BC96 /* Answers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Answers.framework; sourceTree = "<group>"; };
 		58B1C6F81CCF806500283A1B /* First Aid Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Aid Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B1C6FB1CCF806700283A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58B1C6FD1CCF806700283A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,8 +137,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B0780B1E95F89C0048BC96 /* Answers.framework in Frameworks */,
 				583449191CD5B0CC00A86130 /* AVFoundation.framework in Frameworks */,
 				583449131CD3888B00A86130 /* MapKit.framework in Frameworks */,
+				58B0780A1E95F89C0048BC96 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +195,8 @@
 		58B1C6EF1CCF806500283A1B = {
 			isa = PBXGroup;
 			children = (
+				58B078081E95F89C0048BC96 /* Fabric.framework */,
+				58B078091E95F89C0048BC96 /* Answers.framework */,
 				583449181CD5B0CC00A86130 /* AVFoundation.framework */,
 				583449121CD3888B00A86130 /* MapKit.framework */,
 				5834490E1CD384ED00A86130 /* HospitalViewController.swift */,
@@ -293,6 +301,7 @@
 				58B1C6F51CCF806500283A1B /* Frameworks */,
 				58B1C6F61CCF806500283A1B /* Resources */,
 				58692E361DC48D1900AFE511 /* Embed Watch Content */,
+				58B078071E95F84B0048BC96 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -445,6 +454,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58B078071E95F84B0048BC96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run c25d26099dbe8b4adc26f3608d7948b04960471b 5055d0ca1da43cb5720e4a5eb00287106db19c20df93dc2a90c7932931a3d1e4";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58692E161DC48D1900AFE511 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -592,6 +617,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Ishita Mediratta/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -853,6 +882,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Ishita Mediratta/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -875,6 +908,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Ishita Mediratta/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -944,6 +981,7 @@
 				58692E301DC48D1900AFE511 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58692E321DC48D1900AFE511 /* Build configuration list for PBXNativeTarget "First Aid Plus Watch" */ = {
 			isa = XCConfigurationList;
@@ -953,6 +991,7 @@
 				58692E351DC48D1900AFE511 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58B1C6F31CCF806500283A1B /* Build configuration list for PBXProject "First Aid Plus" */ = {
 			isa = XCConfigurationList;
