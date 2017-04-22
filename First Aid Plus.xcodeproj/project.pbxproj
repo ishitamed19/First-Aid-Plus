@@ -12,6 +12,7 @@
 		583449151CD38E9F00A86130 /* MapAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583449141CD38E9F00A86130 /* MapAnnotations.swift */; };
 		583449171CD4CBD300A86130 /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583449161CD4CBD300A86130 /* StepsViewController.swift */; };
 		583449191CD5B0CC00A86130 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583449181CD5B0CC00A86130 /* AVFoundation.framework */; };
+		58422D961E964C68008A29D6 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58422D951E964C67008A29D6 /* Crashlytics.framework */; };
 		58692E121DC48D1900AFE511 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58692E101DC48D1900AFE511 /* Interface.storyboard */; };
 		58692E141DC48D1900AFE511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58692E131DC48D1900AFE511 /* Assets.xcassets */; };
 		58692E1B1DC48D1900AFE511 /* First Aid Plus Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 58692E1A1DC48D1900AFE511 /* First Aid Plus Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -23,7 +24,6 @@
 		5893ED6C1CCFADFB0052F8A8 /* listitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5893ED6B1CCFADFB0052F8A8 /* listitem.swift */; };
 		5893ED6E1CD110FF0052F8A8 /* listItemCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5893ED6D1CD110FF0052F8A8 /* listItemCategory.swift */; };
 		58B0780A1E95F89C0048BC96 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B078081E95F89C0048BC96 /* Fabric.framework */; };
-		58B0780B1E95F89C0048BC96 /* Answers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B078091E95F89C0048BC96 /* Answers.framework */; };
 		58B1C6FC1CCF806700283A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C6FB1CCF806700283A1B /* AppDelegate.swift */; };
 		58B1C6FE1CCF806700283A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1C6FD1CCF806700283A1B /* ViewController.swift */; };
 		58B1C7011CCF806700283A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B1C6FF1CCF806700283A1B /* Main.storyboard */; };
@@ -95,6 +95,7 @@
 		583449141CD38E9F00A86130 /* MapAnnotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotations.swift; sourceTree = "<group>"; };
 		583449161CD4CBD300A86130 /* StepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
 		583449181CD5B0CC00A86130 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		58422D951E964C67008A29D6 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		58692E0E1DC48D1900AFE511 /* First Aid Plus Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Aid Plus Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58692E111DC48D1900AFE511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		58692E131DC48D1900AFE511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,7 +110,6 @@
 		5893ED6B1CCFADFB0052F8A8 /* listitem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listitem.swift; sourceTree = "<group>"; };
 		5893ED6D1CD110FF0052F8A8 /* listItemCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listItemCategory.swift; sourceTree = "<group>"; };
 		58B078081E95F89C0048BC96 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		58B078091E95F89C0048BC96 /* Answers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Answers.framework; sourceTree = "<group>"; };
 		58B1C6F81CCF806500283A1B /* First Aid Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Aid Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B1C6FB1CCF806700283A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58B1C6FD1CCF806700283A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,9 +137,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B0780B1E95F89C0048BC96 /* Answers.framework in Frameworks */,
 				583449191CD5B0CC00A86130 /* AVFoundation.framework in Frameworks */,
 				583449131CD3888B00A86130 /* MapKit.framework in Frameworks */,
+				58422D961E964C68008A29D6 /* Crashlytics.framework in Frameworks */,
 				58B0780A1E95F89C0048BC96 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,8 +195,8 @@
 		58B1C6EF1CCF806500283A1B = {
 			isa = PBXGroup;
 			children = (
+				58422D951E964C67008A29D6 /* Crashlytics.framework */,
 				58B078081E95F89C0048BC96 /* Fabric.framework */,
-				58B078091E95F89C0048BC96 /* Answers.framework */,
 				583449181CD5B0CC00A86130 /* AVFoundation.framework */,
 				583449121CD3888B00A86130 /* MapKit.framework */,
 				5834490E1CD384ED00A86130 /* HospitalViewController.swift */,

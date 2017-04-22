@@ -8,7 +8,8 @@
 
 import UIKit
 import Fabric
-import Answers
+import Crashlytics
+
 
 
 @UIApplicationMain
@@ -76,7 +77,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             launchedShortcutItem = shortcutItem
         }
         
-        Fabric.with([Answers.self])
+        Fabric.with([Answers.self, Crashlytics.self])
+
 
         return true
     }
